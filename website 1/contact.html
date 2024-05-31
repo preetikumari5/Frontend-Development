@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Page</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Protest+Revolution&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <!-- main header -->
+            <header class="main-header">
+                <!-- logo  holder-->
+                <div class="logo-holder">
+                    <a href="#">
+                        <img src="image/download.jpeg" alt="Literary Heaven" height="100px" width="100px">
+                    </a>
+                </div>
+                <!-- search holder -->
+                <div class="search-holder">
+                    <form action="" method="get">
+                        <input type="search" name="search" placeholder="search for">
+                        <button type="submit">Search</button>
+                    </form>
+                </div>
+            </header>
+            <!-- main menu -->
+            <nav class="main-menu">
+                <ul>
+                    <li><a herf="#">Home</a></li>
+                    <li><a href="#">Services</a>
+                        <ul class="drop">
+                            <li><a href="#">Service one</a></li>
+                            <li><a href="#">Service two</a></li>
+                            <li><a href="#">Service three</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <!-- map -->
+            <section class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3549.4004022834392!2d78.03956727646222!3d27.175149548761375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39747121d702ff6d%3A0xdd2ae4803f767dde!2sTaj%20Mahal!5e0!3m2!1sen!2sin!4v1713593611523!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+           <!-- contact details -->
+           <section class="contact-details">
+              <div class="contact-form">
+                <form action="" method="post">
+                    <label for="c_name">
+                        Name:
+                        <input type="text" name="c_name" id="c_name" placeholder="name">
+                    </label>
+                    <label for="c_email">
+                        Email:
+                        <input type="email" name="c_email" id="c_email" placeholder="email">
+                    </label>
+                    <label for="c_phone">
+                        Phone:
+                        <input type="phn" name="c_phone" id="c_phone" placeholder="phone">
+                    </label>
+                    <label for="c_message">
+                        Message:
+                        <textarea name="c_message" id="c_message" cols="30" rows="5"></textarea>
+                    </label>
+                    <button type="submit">Send Message</button>
+                </form>
+              </div>
+              <div class="time-contact">
+                <h3>Timings</h3>
+                <p><strong>Monday - Saturday<time datetime="09:00"></time>09:00AM</time> - <time datetime="17:00">05:00PM</time></strong></p>
+                <hr>
+                <h3>Contact</h3> 
+                <p><a href="mailto:someone@something.com">someone@something.com</a></p>            
+            </div>
+           </section>
+           
+            <!-- footer widgets -->
+            <section class="footer-widget-holder">
+                <div class="footer-widget">
+                    <a href="#">
+                        <img src="image/download.jpeg" alt="cool" height="100px" width="100px">
+                    </a>
+                    <h3>Address</h3>
+                    <address>
+
+                    </address>
+                </div>
+                <div class="footer-widget">
+                  <h4>Sitemap</h4>
+                  <ul>
+                    <li><a herf="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                  </ul>
+                </div>
+                <div class="footer-widget">
+                    <h4>Sitemap</h4>
+                    <ul>
+                      <li><a herf="#">Home</a></li>
+                      <li><a href="#">Services</a></li>
+                      <li><a href="#">Products</a></li>
+                      <li><a href="#">About</a></li>
+                      <li><a href="#">Contact</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer-widget">
+                    <h4>Sitemap</h4>
+                    <ul>
+                      <li><a herf="#">Home</a></li>
+                      <li><a href="#">Services</a></li>
+                      <li><a href="#">Products</a></li>
+                      <li><a href="#">About</a></li>
+                      <li><a href="#">Contact</a></li>
+                    </ul>
+                  </div>
+            </section>
+            <!-- site footer -->
+            <footer class="site-footer">
+                <p><small>Copyright &copy; 2025</small></p>
+            </footer>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"></script>
+        <script>
+            $(document).ready(function()
+            {
+                $('#adaptive').lightSlider
+                ({
+                    adaptiveHeight:true,
+                    item:1,
+                    slideMargin:0,
+                    loop:true
+                });
+            });
+        </script>
+    </body>
+</html>
+
+
+

@@ -1,0 +1,15 @@
+*{
+    font-family:sans-serif ;
+}
+.container{
+    max-width: 1000px;
+    height: auto;
+    padding: 25px;
+    background-color: brown;
+    color:white;
+}
+@media screen and (max-width:500px){
+    .container{
+        background-color: teal;
+    }
+}
