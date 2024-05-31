@@ -1,0 +1,8 @@
+li[class="a"]
+{
+    color:brown;
+}
+ /* purey web pe khi bhi change krna ho toh  universal selector use krte hai */
+*{
+    list-style-type: none ;
+}

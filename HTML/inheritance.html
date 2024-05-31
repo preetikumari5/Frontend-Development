@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Inheritance</title>
+        <style>
+            body{
+                color:blue;
+            }
+            /* blue inherit */
+            .class1 a{
+                color: inherit;
+            }
+            /* black initial color hota hai */
+            .class2 a{
+                color: initial;
+            }
+
+            .class3 a{
+                color: unset;
+            }
+        </style>
+    </head>
+    <body>
+        <ul>
+            <!-- default colour link ka purple hota hai -->
+            <li>Default     <a href="">link</a>    color</li>
+            <li class="class1">Inherited     <a href="">link</a>    color</li>
+            <li class="class2">Initial    <a href="">link</a>    color</li>
+            <li class="class3">Unset    <a href="">link</a>    color</li>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Payment Form Styling</title>
+        <link rel="stylesheet" href="Formstyle.css">
+    </head>
+    <body>
+        <div class="container">
+            <form action="" method="get">
+                <h1 class="main_heading">Payment Form</h1>
+                <p>Required fields are followed by *</p>
+                <h2>Contact information</h2>
+                <p>Name* : <input type="text" name="name" placeholder="abc singh" required></p>
+                <fieldset>                                                                                         <!--fieldset wrap krne ke liye use krte hai-->
+                <legend>GENDER*</legend>                                                                            <!--legend use hota hai grouped data ko heading dene ke liye-->
+                <p>
+                    Male <input type="radio" name="gender"  id="male" required >
+                    Female <input type="radio" name="gender"  id="female" required>
+                </p>
+                </fieldset>
+                <p>Address* <textarea placeholder="Enter your Address" name="Address" id="Address" cols="100" rows="20" required></textarea></p>
+                <p>Pincode* : <input type="number" name="pincode" id="pincode" required placeholder="147963"></p>
+                <p>Email* : <input type="email" name="email" id="email" placeholder="abc@gmail.com" required></p>
+                <p>
+                    <h2>Payment information</h2>
+                    <select> card type:
+                        <option value="">--Select a card type--</option>
+                        <option value="visa">Visa</option>
+                        <option value="rupay">Rupay</option>
+                        <option value="mastercard">Mastercard</option>
+                    </select>
+                </p>
+                <p>Card Number* : <input type="number" name="number" id="number" placeholder="1111-2222-3333-4444" required></p>
+                <p>Expiration Date*: <input type="date" name="exp_date" id="exp_date" placeholder="dd/mm/yy"></p>
+                <p>CVV* : <input type="password" name="cvv" id="cvv" placeholder="123"></p>
+                <input type="submit" value="Pay now">
+            </form>
+        </div>
+     </body>
+</html>

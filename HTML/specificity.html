@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Specificity</title>
+        <!-- <link rel="stylesheet" href="specificity.css"> -->
+        <style>
+            /* yeh vlaa work nhi krega kyunki isko vapas se neeche style kiya gya hai
+            but jo 2nd time use krte hai style krne ke liye uski preference jyada hoti hai
+            as compared to initial one */
+            .fav{
+                color:chartreuse;
+                font-weight: bold;
+            }
+            ul#summer-drinks  li.fav{
+                color:forestgreen;
+                font-weight: bold;
+            }
+            /* ul#summer-drinks  li{
+                font-size: 12px;
+                color: darkolivegreen;
+                font-weight: normal;
+            } */
+            .imp{
+                color: darkmagenta;
+            }
+            .imp{
+                color:darkorange;
+            }
+        </style>
+        <link rel="stylesheet" href="specificity.css">
+    </head>
+    <body>
+        <ul id="summer-drinks">
+            <li class="fav">Mountain dew</li>
+            <li>Appy Fizz</li>
+            <li>Nimbu pani</li>
+            <li class="imp">glucond</li>
+        </ul>
+    </body>
+</html>

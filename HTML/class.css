@@ -1,0 +1,44 @@
+/* particular part of text ko highlight krne ke liye */
+
+.class_ka_naam{
+    color:purple;
+    font-weight: bold;
+}
+
+.class1{
+    color:darkkhaki;
+    font-weight: bold;
+}
+
+.class2{
+    color:orange;
+    font-weight: bold;
+}
+
+li em{
+    color: green;
+    font-weight: bold;
+}
+
+/* use to select ekdum baad vlaa tag */
+/* yeh work nhi krega kyunki iske baad h2 tag hai paragraph nhi */
+h1+p{
+     font-size: 200%;
+}
+
+/* yeh krega work */
+h2+p{
+    font-size: 200%;
+}
+
+/* pseudo class selector */
+a:hover{
+    color:darkorchid;
+    text-decoration: none;
+}
+
+body h1+p .special{
+    color:yellow;
+    background-color: black;
+    padding: 5px;
+}

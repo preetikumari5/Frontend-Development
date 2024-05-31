@@ -1,0 +1,18 @@
+p{
+    color:darkgreen;
+}
+
+a{
+    color:blueviolet
+}
+
+
+/* aese bhi likh skte hai */
+/* p,a{
+    color:darkgreen;
+} */
+
+li{
+    list-style-type: lower-alpha;
+}
+
