@@ -1,0 +1,43 @@
+<!-- js mai use krte hai -->
+
+<!-- the async keyword -->
+
+<!-- asynchronous programming, performs tasks concurrently,
+     fetching data from a server, multiple things at once-->
+
+async function fetchData() {
+    //code
+}
+
+<!-- the await keyword -->
+<!-- when a function is marked async, await can be used inside it
+,waiting for something like dagta frpm API -->
+
+async function fetchData() {
+    const response = await fetch(some link)
+    const data = await response.json();
+}
+
+
+<!-- fetch keyword -->
+<!--  make network requuests, fetch data from url-->
+
+fetch(some link)
+.then(response =>{
+    //response
+})
+.catch(error => {
+    //error
+});
+
+
+<!-- response keyword 
+data in -raw format , convert it into -->
+fetch(some link)
+.then(response=> response.json())
+.then(response =>{
+    //response
+})
+.catch(error => {
+    //error
+}); 
