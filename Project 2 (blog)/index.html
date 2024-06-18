@@ -61,6 +61,81 @@
         </div>
      </nav>
     <!-- navigation bar -->
+
+    <!-- banner -->
+    <section class="banner-holder pt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="banner-content text-center text-white my-5 py-5">
+                    <h1>
+                       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, magni? 
+                    </h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi delectus sed possimus, itaque, suscipit magni minima nam quibusdam voluptatibus excepturi officiis, eos odio aliquam id!</p>
+                    <a href="#" class="btn btn-primary"
+                        data-bs-toggle="modal"
+                        data-bs-target="#subscribe-modal">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-patch-check-fill" viewBox="0 0 16 16">
+                            <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708"/>
+                          </svg>
+                        Subscribe for  newletters</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- banner -->
+
+    <!-- subscribe modal -->
+    <div class="modal fade" id="subscribe-modal" 
+         data-bs-backdrop="static"
+         data-bs-keyboard="false"
+         tabindex="-1"
+         aria-hidden="true">
+         <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header text-bg-primary">
+                    <h5 class="modal-title">Subscribe for newletters</h5>
+                    <button type="button" class="btn-close btn-close-white"
+                        data-bs-dismiss="modal"
+                        aria-label="col-md-6">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="row gx-2">
+                            <div class="col-md-6">
+                                <div class="mb-2">
+                                    <input type="text" class="form-control form-control-sm" placeholder="First Name" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-2">
+                                    <input type="text" class="form-control form-control-sm" placeholder="Last Name" required>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-2">
+                                    <input type="text" class="form-control form-control-sm" placeholder="Email" required>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="d-grid">
+                                    <button
+                                      type="submit"
+                                      class="btn btn-sm btn-success">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-patch-check-fill" viewBox="0 0 16 16">
+                                        <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708"/>
+                                      </svg>
+                                      Subscribe
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+         </div>
+    </div>
+    <!-- subscribe modal -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js
     "></script>
 </body>
