@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Default Template</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css
+    ">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-light">
+<!-- navigation bar -->
+     <nav class="navbar navbar-expand-lg bg-white small border-bottom shadow-sm fixed-top custom-nav" style="--bs-bg-opacity: .9;">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <span class="brand-style brand-gradient">
+                    BLOG 2.0
+                </span>
+            </a>
+            <button
+                type="button"
+                class="navbar-toggler"
+                data-bs-toggle="collapse"
+                data-bs-target="blog-navbar"
+                aria-expanded="false"
+                aria-label="Toggle Navigation">
+                <span class="nabar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="blog-navbar">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link text-dark">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="default.html" class="nav-link text-dark">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="post.html" class="nav-link text-dark">Posts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="page.html" class="nav-link text-dark">Pages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-dark">Search</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="default.html" class="nav-link text-dark">Default</a>
+                    </li>
+                </ul>
+                <form class="d-felx" role="search">
+                    <div class="input-group">
+                        <input type="search" class="form-control form-control-sm" placeholder="search for..">
+                        <button type="submit" class="btn btn-sm btn-success">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                            </svg>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+     </nav>
+<!-- navigation bar -->
+
+<!-- page header -->
+ <header class="main-page-header py-5 mb-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="page-header-holder mt-5 text-white">
+                    <h1 class="fs-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. </h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam debitis ipsum maxime recusandae incidunt fugit omnis quis vel, totam quia quam odio libero eos culpa molestiae sint amet quos excepturi!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+ </header>
+<!-- page header -->
+
+<!-- post loop -->
+ <section class="post-loop py-3 mb-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+               <div class="content-holder">
+                    <!-- <img src="https://source.unsplash.com/random/600x600" alt="image" class="img-fluid rounded"> -->
+                    <img src="image/post.jpeg" alt="image" class="img-fluid rounded">
+                    <div class="post-content mb-3">
+
+                        <h1>Heading One</h1>                        
+                        <h2>Heading Two</h2>
+                        <h3>Heading Three</h3>
+                        <h4>Heading Four</h4>
+                        <h5>Heading Five</h5>
+                        <h6>Heading Six</h6>
+
+                        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ex quibusdam eveniet!</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum qui incidunt et consequatur ea? Quis debitis odio obcaecati nam vitae dolorem soluta ducimus inventore. Fuga, voluptates. Quibusdam ipsum voluptatum vel?</p>
+                        <p>In natus quia quos voluptates blanditiis veritatis delectus architecto exercitationem illo quisquam soluta neque quod accusamus doloribus ab, at nemo deserunt, ducimus voluptatem iure molestiae consequuntur incidunt. Laboriosam, ad saepe?</p>
+                        <p>Ea illo veritatis a, doloremque dolor animi distinctio! In non enim cum incidunt, labore nostrum commodi, sunt nesciunt maxime aspernatur perferendis quas debitis laborum, odio iste explicabo est sit! Laborum!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-bg-primary mb-3">
+                    <div class="card-body">
+                        <h3 class="fs-4">Subscribe for newsletters</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id tempora nihil in, culpa commodi perferendis repudiandae nulla ratione rem laborum distinctio velit quidem illo quis.</p>
+                    <form>
+                        <div class="row gx-2">
+                            <div class="col-md-6">
+                                <div class="mb-2">
+                                    <input type="text" class="form-control form-control-sm" placeholder="First Name" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-2">
+                                    <input type="text" class="form-control form-control-sm" placeholder="Last Name" required>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-2">
+                                    <input type="text" class="form-control form-control-sm" placeholder="Email" required>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="d-grid">
+                                    <button
+                                      type="submit"
+                                      class="btn btn-sm btn-warning">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-patch-check-fill" viewBox="0 0 16 16">
+                                        <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708"/>
+                                      </svg>
+                                      Subscribe
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>   
+                </div>
+                </div>
+                <ul class="list-group small mb-3">
+                    <li class="list-group-item active">Archives</li>
+                    <li class="list-group-item list-group-item-action">
+                        <a href="#" class="text-decoration-none text-dark">2020</a>
+                    </li>
+                    <li class="list-group-item list-group-item-action">
+                        <a href="#" class="text-decoration-none text-dark">2021</a>
+                    </li>
+                    <li class="list-group-item list-group-item-action">
+                        <a href="#" class="text-decoration-none text-dark">2022</a>
+                    </li>
+                    <li class="list-group-item list-group-item-action">
+                        <a href="#" class="text-decoration-none text-dark">2023</a>
+                    </li>
+                </ul>
+                <ul class="list-group small mb-3">
+                    <li class="list-group-item active">Categories</li>
+                    <li class="list-group-item list-group-item-action">
+                        <a href="#" class="text-decoration-none text-dark">Technology</a>
+                    </li>
+                    <li class="list-group-item list-group-item-action">
+                        <a href="#" class="text-decoration-none text-dark">Fashion</a>
+                    </li>
+                    <li class="list-group-item list-group-item-action">
+                        <a href="#" class="text-decoration-none text-dark">Modern</a>
+                    </li>
+                    <li class="list-group-item list-group-item-action">
+                        <a href="#" class="text-decoration-none text-dark">Antique</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+ </section>
+<!-- post loop -->
+
+<!-- blog footer -->
+ <footer class="main-footer text-bg-dark p-4 text-center">
+    <p class="m-0"><small>Copyright &copy; 2024. All Rights Reserved </small></p>
+ </footer>
+<!-- blog footer -->
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js
+    "></script>
+</body>
+</html>
