@@ -2,5 +2,5 @@ Welcome to my Web Development Progress repository! This repository documents my 
 
 Overview
 This repository includes:
-HTML, CSS , JAVASCRIPT code files from basic to advance
+HTML, CSS , JAVASCRIPT, BOOTSTRAP code files from basic to advance
 Projects: simple webpages to fully designed and functional websites
