@@ -6,3 +6,12 @@
     width: 50px;
     height: auto;
 }
+.subscribe {
+    background-image: url(image/typing2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.brand-icon img{
+    width: 50px;
+    height: auto;
+}
