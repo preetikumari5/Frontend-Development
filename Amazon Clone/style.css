@@ -168,21 +168,50 @@ span {
     margin-top: 12px;
 }
 
+.bar {
+    margin-right: 6px;
+    font-weight: bold;
+}
+
 .panel {
-    background-color: #222f3d;
+    background-color: #203041;
     display: flex;
-    height: 30px;
+    height: 40px;
     align-items: center;
 }
 
 .panel-all{
     color:white;
+    display: flex;
     margin-left: 20px;
     margin-right: 5px;
+    font-weight: bold;
 }
 
 .panel-ops {
     color: white;
     margin: 30px;
     display: flex;
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panel-ops p{
+    margin-left: 3px;
+    margin-right: 20px;
+}
+
+.lSPager {
+    margin-top: -25px !important;
+}
+
+.main-sec{
+    align-items: center;
+    justify-content: center;
+}
+.m-img{
+    height: 350px;
+    width: 1000px;
+    align-items: center;
+    justify-content: center;
 }
