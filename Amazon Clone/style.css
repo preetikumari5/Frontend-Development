@@ -11,6 +11,7 @@
     color: white;
     display: flex;
     align-items: center;
+    /* justify-content: space-evenly;  */
 }
 
 .nav-logo {
@@ -34,10 +35,15 @@
     border: 1.5px solid white;
 }
 
+.nav-address{
+    width: 100px;
+}
+
 .add-first {
     color: #CCCCCC;
     font-size: 0.75rem;
     margin-left: 15px;
+    margin-right: 15px;
 }
 
 .add-sec {
@@ -48,22 +54,31 @@
 .add-icon {
     display: flex;
     align-items: center;
+    
 }
 
 .nav-search {
     display: flex;
     justify-content: space-evenly;
-    width: 620px;
+    width: 1250px;
     height: 40px;
     background-color: pink;
     border-radius: 5px;
     overflow: hidden; /* Ensures child elements fit within the border-radius */
 }
 
+.nav-search:hover {
+    border: 2px solid #febd68;
+}
+
+.option1 {
+    text-align: center;
+}
+
 .search-select {
     background-color: #F3F3F3;
     width: 50px;
-    text-align: center;
+    text-align: left;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     border: none;
@@ -84,6 +99,90 @@
     color: rgb(105, 0, 105);
     font-weight: bold;
     background-color: #febd68;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.nav-lang {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100px;
+    margin-left:30px;
+    margin-right: 20px;
+}
+
+.flag-icon {
+    width: 30px; /* Adjust width to fit navbar */
+    height: 25px; /* Adjust height to fit navbar */
+    margin-right: 5px; /* Space between flag and select */
+    
+}
+
+
+.lang-select {
+    background-color: #0F1111;
+    width: 40px;
+    color:white;
+    text-align: center;
+    border: none;
+    margin-left: 0px;
+}
+
+.optionl{
+    background-color: white;
+    color: black;
+    text-align: left;
+}
+
+.signin{
+    width: 120px;
+    margin-right: 20px;
+}
+
+.return {
+    width: 70px;
+    margin-right: 20px;
+}
+
+span {
+    font-size: 12px;
+}
+
+.acc{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.cart{
+    display: flex;
+}
+
+.cart-icon i{
+    font-size: 30px;
+}
+
+.cart {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.panel {
+    background-color: #222f3d;
+    display: flex;
+    height: 30px;
+    align-items: center;
+}
+
+.panel-all{
+    color:white;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+.panel-ops {
+    color: white;
+    margin: 30px;
+    display: flex;
 }
