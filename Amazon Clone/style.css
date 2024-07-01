@@ -236,6 +236,7 @@ span {
     color: black; /* Text color */
     padding: 10px;
     text-align: center;
+    
 }
 
 .m-img {
@@ -438,7 +439,7 @@ ul a:hover {
 }
 
 .foot-panel4 .lists  ul a h5{
-    font-weight: 300;
+    font-weight: bold;
     font-size: 14px;
 }
 .foot-panel4 .lists  ul a  p{
