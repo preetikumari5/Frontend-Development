@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Amazon Ember', sans-serif;
+    
 }
 
 .navbar {
@@ -173,6 +174,7 @@ span {
     font-weight: bold;
 }
 
+
 .panel {
     background-color: #203041;
     display: flex;
@@ -201,63 +203,102 @@ span {
     margin-right: 20px;
 }
 
+
+
 .lSPager {
     margin-top: -25px !important;
 }
-
+.Main-container{
+    width: 1500px;
+    height: auto;
+    margin-left: 200px;
+    align-items: center;
+    justify-content: center;
+    /* background-color: white; */
+    /* border: 1px solid gainsboro; */
+    box-shadow: 0px 0px 25px rgba(0,0,0,0.1);
+    /* background-color: #b8b5b3; */
+}
 .main-sec{
     height: 600px;
     background-size: cover;
     justify-content: center;
     align-items: flex-end;
+    position: relative;
 }
 
 .banner-slider {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 200px;
+    width: 1500px;
+    position: relative;
+    z-index: 1;
+    /* margin-left: 200px; */
 }
 .image-container {
     position: relative;
     align-items: center;
     justify-content: center;
+    width: 1500px;
+}
+
+/* Ensure images are responsive */
+.m-img {
+   
+    height: 600px;
 }
 
 .text-overlay {
-    display: flex;
-    justify-content: center;
+    /* display: flex; */
     position: absolute;
-    width:1450px;
     bottom: 320px;
     left: 20px;
     right: 20px;
-    background-color: white; /* Optional: to make text stand out against the image */
-    color: black; /* Text color */
+    background-color: white; 
+    color: black; 
     padding: 10px;
     text-align: center;
-    
+    font-size: 12px;
+    white-space: nowrap;
+    /* height: 40px; */
 }
 
-.m-img {
-   
-    height: 600px; /* Ensure images are responsive */
-}
-
+ 
 .text a{
     color: #007185;
     text-decoration: none;
+    font-size: 12px;
 }
+
+
+.text a:hover{
+    color: #e68b03;
+}
+
+
+
  /* shop section */
 .shop-sec{
+/* box ko i,age ke upar display krne ke liye position use hota hai */
+
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    width: 80%;
+    padding: 20px;    
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    background-color: #e2e7e6 ;
+ 
+    
 }
 
+
+
 .box {
-    /* border: 2px solid black; */
     height:400px;
     width: 23%;
     background-color: white;
@@ -267,7 +308,7 @@ span {
 
 .box-img {
     height: 300px;
-    /* background-size: cover; */
+    background-position: cover;
     background-repeat: no-repeat;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -285,7 +326,7 @@ span {
 /* footer */
 
 footer{
-    margin-top: 15px;
+    margin-top: 600px;
 }
 
 .foot-panel1{
